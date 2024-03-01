@@ -129,7 +129,7 @@ def perf(PATH1):
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
             if matrix[i][j] == 0:
-                Q.append([i, j]))
+                Q.append([i, j])
      
     population = PATH1
     start = population[0][0]
